@@ -229,4 +229,3 @@ UserController = __decorate([
 ], UserController);
 exports.UserController = UserController;
 //# sourceMappingURL=user.controller.js.map
-console.log('USER - CONTROLLER')

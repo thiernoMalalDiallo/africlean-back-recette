@@ -74,7 +74,7 @@
   "scripts": {
     "start": "npm run build:live",
     "build": "",
-    "build:live": "nodemon start.js",
+    "build:live": "nodemon out/start.js",
     "cron:live": "nodemon --watch src/**/*.ts --exec ts-node src/planner.ts",
     "generate_doc": "typedoc --mode modules --out ./doc ./src",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --format verbose",

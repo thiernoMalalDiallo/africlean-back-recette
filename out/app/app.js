@@ -9,16 +9,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const server_abstract_1 = require("express-dependency-injection/dist/server/server.abstract");
 const express_dependency_injection_1 = require("express-dependency-injection");
 const main_controller_1 = require("../controller/main.controller");
-
-const express = require('express');
 /**
  * Le point d'entrée principale de l'application
  */
 let App = class App extends server_abstract_1.AbstractServer {
-    constructor() {
-        super();
-        this.app = express();
-    }
 };
 App = __decorate([
     express_dependency_injection_1.ExServer({
